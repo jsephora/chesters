@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.chesterselectrical\.com.au$
+RewriteRule ^/?$ "http\:\/\/chesterselectrical\.com.au\/" [R=301,L]

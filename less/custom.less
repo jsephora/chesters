@@ -1,0 +1,115 @@
+//CUSTOM STUFF
+.summary {
+    background-color: @gray-dark;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 18px;
+    h4 {
+        margin: 0 6px 12px;
+    }
+    ul {
+        padding-left: 6px;
+    }
+}
+
+.summary li {
+    list-style: none;
+    &:before {
+        font-family: fontawesome;
+        content: "\f00c";
+        color: @sky-blue;
+        margin-right: .5em;
+    }
+}
+
+.thumbnail {
+    display: inline;
+    line-height: 1.42857143;
+    background-color: #ffffff;
+    border: none;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    max-width: 360px;
+    margin: 0 auto 21px;
+}
+
+@media(max-width:767px) {
+    .summary {
+        margin: 30px 15px;
+    }
+    .thumbnail {
+        display: block;
+    }
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 0px 15px;
+    margin-bottom: 4px;
+    background: none;
+    border: none;
+    text-align: left;
+    line-height: 18px;
+}
+
+.service {
+    margin-bottom: 20px;
+    margin-right: 50px;
+    border-bottom: 1px solid @sky-blue;
+    padding: 0px 0px 20px;
+    text-align: left;
+}
+
+@media(max-width:480px) {
+    .service {
+        text-align: center;
+        margin-right: 0px;
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+.yellow-pages {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.review-link {
+    margin-top: 12px;
+}
+
+//----BUTTON-----
+.orange {
+    background-color: orange;
+    color: white;
+    border: 1px solid darkorange;
+    font-size: 200%;
+    letter-spacing: 1px;
+    &:hover {
+        background-color: darkorange;
+    }
+}
+
+//---- Home page tile links ----//
+a.tile {
+    display: block;
+    color: @dark-teal;
+    .text-muted {
+        font-size: 19px;
+        color: @gray-darker;
+    }
+    &:hover {
+        background-color: @gray-lighter;
+        text-decoration: none;
+        color: @dark-teal;
+    }
+    span.fa-stack {
+        z-index: 2;
+    }
+}

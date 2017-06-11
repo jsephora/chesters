@@ -1,0 +1,143 @@
+// NAVBAR
+.navbar-default {
+    background-color: white;
+    .navbar-nav {
+        li {
+            a {
+                color: #000000;
+            }
+            a:hover,
+            a:focus {
+                color: @sky-blue;
+            }
+        }
+    }
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu {
+    li {
+        a {
+            color: @dark-teal;
+            &:hover,
+            &:focus {
+                color: @sky-blue;
+                background-color: @dark-teal;
+            }
+        }
+    }
+}
+
+.navbar-default .navbar-toggle {
+    border-color: @sky-blue;
+    background-color: @white;
+    &:hover {
+        border-color: @darker-sky-blue;
+        background-color: @sky-blue;
+    }
+    &:focus {
+        border-color: @darker-sky-blue;
+        background-color: @sky-blue;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: @sky-blue;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: @white;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: @white;
+}
+
+
+.navbar-brand {
+    padding: 0;
+    img {
+        max-width: 200px;
+        padding: 4px 0 0;
+    }
+}
+
+@media(min-width:480px) {
+    .navbar-brand {
+        height: auto;
+        padding: 0; 
+        img {
+            width: 80%;
+            max-width: 280px;
+            padding: 4px 0px 4px 4px;
+        }
+    }
+}
+
+
+@media(min-width:768px) {
+    .navbar-brand {
+        height: 85px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                padding-top: 33px;
+                padding-bottom: 30px;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        .navbar-brand {
+            font-size: 2em;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+    }
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+        .navbar-brand {
+            font-size: 1.5em;
+        }
+    }
+}
+
+.navbar {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    a:focus {
+        outline: none;
+    }
+    .navbar-nav {
+        letter-spacing: 1px;
+        li {
+            a:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: @sky-blue;
+}
