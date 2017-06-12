@@ -65,12 +65,45 @@
 
 .ctaBox {
     border-radius: 6px;
-    height: 589px;
+    height: auto;
     width: 100%;
     background-color: @beige;
     background-image: url("../img/rj45.png");
-    background-position: right bottom;
+    background-position: right top 24px;
     background-repeat: no-repeat;
+    padding: 20px 50px;
+    p {
+        line-height: 1.4;
+        &.strong {
+            font-weight: 700;
+            color: @cta-header;
+            padding-top: 12px;
+        }
+    }
+    h3 {
+        color: @cta-header;
+        margin-bottom: 40px;
+        line-height: 1.4;
+        font-size: 30px;
+    }
+}
+.cta {
+    padding-top: 30px;
+    text-align: center;
+    tagline {
+        font-size: 18px;
+        font-weight: 700;
+        color: @cta-header;
+        margin-bottom: 20px;
+        display: block;
+    }
+}
+button.btn-cta {
+    background: @brand-success;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 18px;
 }
 
 .cta-callout {
