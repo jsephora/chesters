@@ -21,6 +21,11 @@
         background-size: cover;
         height: @hero-height;
     }
+    &.aircon {
+        background: url(../img/chesters-air-conditioning.jpg) 50% no-repeat;
+        background-size: cover;
+        height: @hero-height;
+    }
     @media(min-width: 768px) {
         margin-top: 135px;
     }
@@ -40,12 +45,21 @@
     p {
         font-size: 18px;
         font-weight: 100;
+        line-height: 1.6;
     }
     ul.serviceList {
         font-size: 18px;
         li {
             line-height: 1.4;
             padding-bottom: 10px;
+            list-style-type: none;
+            &:before {
+                font-family: 'FontAwesome';
+                font-size: 14px;
+                content: '\f0e7';
+                margin: 0 12px 0 -30px;
+                color: darkorange;
+            }
         }
     }
     footer {
@@ -71,7 +85,7 @@
     background-image: url("../img/rj45.png");
     background-position: right top 24px;
     background-repeat: no-repeat;
-    padding: 20px 50px;
+    padding: 20px 50px 50px;
     p {
         line-height: 1.4;
         &.strong {
@@ -87,6 +101,7 @@
         font-size: 30px;
     }
 }
+
 .cta {
     padding-top: 30px;
     text-align: center;
@@ -98,12 +113,16 @@
         display: block;
     }
 }
-button.btn-cta {
+
+.btn-cta {
     background: @brand-success;
     color: white;
     padding: 16px 32px;
     border-radius: 8px;
     font-size: 18px;
+    &:hover {
+        background: @cta-header;
+    }
 }
 
 .cta-callout {
@@ -112,4 +131,10 @@ button.btn-cta {
     border-radius: 6px;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+.arctick-logo {
+    float: right;
+    margin-bottom: 20px;
 }

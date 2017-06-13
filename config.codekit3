@@ -579,6 +579,37 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/chesters-air-conditioning.jpg": {
+		"ft": 16384,
+		"iS": 86607,
+		"oA": 0,
+		"oAP": "\/img\/chesters-air-conditioning.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/chesters-arctick.png": {
+		"ft": 32768,
+		"iS": 21281,
+		"oA": 0,
+		"oAP": "\/img\/chesters-arctick.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/chesters-blown-fuse.jpg": {
+		"ft": 16384,
+		"iS": 52771,
+		"oA": 0,
+		"oAP": "\/img\/chesters-blown-fuse.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/chesters-commercial-services.jpg": {
 		"ft": 16384,
 		"iS": 161028,
@@ -1082,6 +1113,24 @@
 		"oA": 0,
 		"oAP": "\/mail\/contact_me.php",
 		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/residential.html": {
 		"ft": 8192,
