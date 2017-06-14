@@ -733,6 +733,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/img\/img-data-upgrade.jpg": {
+		"ft": 16384,
+		"iS": 47001,
+		"oA": 0,
+		"oAP": "\/img\/img-data-upgrade.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/img-solar.jpg": {
+		"ft": 16384,
+		"iS": 58312,
+		"oA": 0,
+		"oAP": "\/img\/img-solar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/installing-solar.jpg": {
 		"ft": 16384,
 		"iS": 20280,
@@ -772,6 +792,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/masterElectricians-rev.png": {
+		"ft": 32768,
+		"iS": 14715,
+		"oA": 0,
+		"oAP": "\/img\/masterElectricians-rev.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/masterElectricians.png": {
+		"ft": 32768,
+		"iS": 8026,
+		"oA": 0,
+		"oAP": "\/img\/masterElectricians.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
