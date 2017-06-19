@@ -963,7 +963,7 @@
 		},
 	"\/js\/bootstrap.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/bootstrap-min.js",
 		"oF": 0,
@@ -972,7 +972,7 @@
 		},
 	"\/js\/bootstrap.min.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/bootstrap.min-min.js",
 		"oF": 0,
@@ -981,7 +981,7 @@
 		},
 	"\/js\/cbpAnimatedHeader.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/cbpAnimatedHeader-min.js",
 		"oF": 0,
@@ -990,7 +990,7 @@
 		},
 	"\/js\/cbpAnimatedHeader.min.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/cbpAnimatedHeader.min-min.js",
 		"oF": 0,
@@ -999,7 +999,7 @@
 		},
 	"\/js\/classie.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/classie-min.js",
 		"oF": 0,
@@ -1008,7 +1008,7 @@
 		},
 	"\/js\/contact_me.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/contact_me-min.js",
 		"oF": 0,
@@ -1017,7 +1017,7 @@
 		},
 	"\/js\/freelancer.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/freelancer-min.js",
 		"oF": 0,
@@ -1026,7 +1026,7 @@
 		},
 	"\/js\/jqBootstrapValidation.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/jqBootstrapValidation-min.js",
 		"oF": 0,
@@ -1035,7 +1035,7 @@
 		},
 	"\/js\/jquery.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/js\/min\/jquery-min.js",
 		"oF": 0,
@@ -2969,13 +2969,13 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"syntaxCheckerStyle": 1,
 		"transpilerStyle": 0
 		},
